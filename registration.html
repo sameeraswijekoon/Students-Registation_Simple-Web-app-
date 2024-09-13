@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Registation.css">
+    <title>Course registration Form</title>
+   
+</head>
+<body>
+    <form id="registrationForm" onsubmit="return validateForm()">
+
+            <h1>Course Registration Form </h1>
+            <h2>Student Name </h2>
+
+        <div class="input-container" >
+            <input type="text" id="fname" name="fname" required>
+            <input type="text" id="mname" name="mname">
+            <input type="text" id="lname" name="lname">
+        </div>
+
+        <div class="label-container">
+            <label for="fname">First Name</label>
+            <label for="mname">Middle Name</label>
+            <label for="lname">Last Name</label>
+        </div>
+        <h2>Birth Date</h2>
+        <div class="input-container" >
+            <select  id="bmonth" name="bmonth" required>
+                <option value="" disabled selected>Select Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">june</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+                </select>
+
+            <input type="number" id="bdate" name="bdate" min="1" max="31" required>
+            
+            <div id="popupMessage" class="popupMessage">Please enter a Date between 1 and 31.</div>
+            
+            <select  id="byear" name="byear"required>
+                <option value="" disabled selected>Select Year</option>
+            <option value="1">1995</option>
+            <option value="2">1996</option>
+            <option value="3">1997</option>
+            <option value="4">1998</option>
+            <option value="5">1999</option>
+            <option value="6">2000</option>
+            <option value="7">2001</option>
+            <option value="8">2002</option>
+            </select>
+
+        </div>
+
+        <div class="label-container">
+            <label for="fname">Month</label>
+            <label for="mname">Date</label>
+            <label for="lname">Year</label>
+        </div>
+
+        
+        <h2>Address</h2>
+<div class="address">
+    <input type="text" id="address" name="address" required>
+</div>
+            <h3>Street Address</h3>
+            <div class="saddress">
+                <input type="text" id="saddress" name="saddress" required>
+            </div>
+                    <h3>Street Address line 2</h3>
+                    <div class="saddressline2" >
+                        <input type="text" id="state" name="state" required>
+                        <input type="number" id="zip" name="zip">
+                      
+                    </div>
+            
+                    <div class="label-saddressline2">
+                        <label for="state">State/Province</label>
+                        <label for="zip">Postal/Zip Code</label>
+                        
+                    </div>
+                    <div class="label-smail">
+                        <label for="mail">Student Mail :</label>
+                        <label for="number">Mobile Number :</label>
+                        
+                    </div>
+                    <div class="smail">
+                        <input type="text" id="mail" name="mail" required>
+                        <div id="popupMessage1" class="popupMessage1">Please enter a Valid Email.</div>
+                        <input type="text" id="number" name="number">
+                        <div id="numberErrorMessage" class="errorMessage">Please enter a valid phone number.</div>
+                    </div>
+                    <div class="label-education">
+                        <label for="edu">Education Lavel :</label>
+                        <label for="course">Courses :</label>
+                        
+                    </div>
+                    <div class="input-container" >
+                        <select  id="edu" name="edu" required>
+                        <option value="" disabled selected>Select Education Level</option>
+                        <option value="1">GCE Advanced Level</option>
+                        <option value="2">GCE Ordinary Level</option>
+                        <option value="3">Undergraduate </option>
+                        <option value="4">Postgraduate</option>
+                      
+                        </select>
+                        <select  id="course" name="course">
+                            <option value="" disabled selected>Select Course</option>
+                            <option value="1">Bachelor of Science in Computer Science</option>
+                            <option value="2">Bachelor of Science in Software Engineering</option>
+                            <option value="3">The Bachelor of Science in Cybersecurity</option>
+                            <option value="4">Bachelor of Science in Software Engineering</option>
+                            <option value="5">Bachelor of Science in Cloud Computing </option>
+                            <option value="6">Bachelor of Science in Electrical Engineering </option>
+                            <option value="7">Bachelor of Science in AutoCAD Engineering </option>
+                            <option value="8">Bachelor of Business Administration (BBA) in Entrepreneursh </option>
+                        </select>
+                    </div>
+
+                    <h3>Additional Comment</h3>
+            <div class="comment">
+                <input type="text" id="acomment" name="acomment" required>
+            </div>
+            
+
+            <div class="btn1-container">
+    <a  href="index.html" class="btn1" onclick="return validateForm()">Submit</a>
+            </div>
+        </div>
+</form>
+<footer>
+    <p>&copy; Sameera S Wijekoon IT2020007 | IT22023 - Web Application Development | Horizon Campus </p>
+</footer>
+
+<script src="script2.js" defer></script>
+</body>
+</html>
