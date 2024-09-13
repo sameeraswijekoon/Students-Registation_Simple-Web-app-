@@ -1,3 +1,4 @@
+**This webpage provides an interactive platform displaying various degree programs offered by three different faculties. It also includes a registration form, user login, and user registration page for easy course enrollment.**
 1. Index Page (Homepage) :
 This is the main landing page for the website. Displays brief information about the institution and quick access to all faculties.Links to the login and registration pages.A navigation bar with links to courses and student resources.
 ![image](https://github.com/user-attachments/assets/1a689aa6-d9a8-4572-a7f6-55619944eb26)
