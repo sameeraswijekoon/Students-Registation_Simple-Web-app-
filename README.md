@@ -177,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@educationplatform.com or create an issue in the repository.
+For support, email sameerasw99@gmail.com or create an issue in the repository.
 
 ## 👏 Acknowledgments
 
